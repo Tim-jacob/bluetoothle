@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>Plugin.BluetoothLE</RootNamespace>
+    <Authors>Allan Ritchie</Authors>
+    <Company />
+    <Product>Reactive BluetoothLE Plugin</Product>
+    <Description>Reactive BluetoothLE Plugin</Description>
+    <RepositoryUrl>https://github.com/aritchie/bluetoothle</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="3.1.1" />
+  </ItemGroup>
+</Project>
