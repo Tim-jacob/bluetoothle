@@ -16,9 +16,16 @@ namespace Plugin.BluetoothLE
         public static Guid ToGuid(this CBUUID uuid)
         {
             var id = uuid.ToString();
-            if (id.Length == 4)
-                id = $"0000{id}-0000-1000-8000-00805f9b34fb";
+            switch (id.Length)
+            {
+                case 4:
+                    id = $"0000{id}-0000-1000-8000-00805f9b34fb";
+                    break;
 
+                case 8:
+                    id = $"{id}-0000-1000-8000-00805f9b34fb";
+                    break;
+            }
             return Guid.ParseExact(id, "d");
         }
 

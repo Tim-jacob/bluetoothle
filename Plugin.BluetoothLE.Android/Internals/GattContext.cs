@@ -29,7 +29,6 @@ namespace Plugin.BluetoothLE.Internals
 
         public void Close()
         {
-            this.Gatt.Close();
             this.Gatt.Disconnect();
         }
 
@@ -37,7 +36,7 @@ namespace Plugin.BluetoothLE.Internals
         public void Dispose()
         {
             GC.SuppressFinalize(this);
-            this.Close();
+            this.Gatt.Close();
         }
 
 
