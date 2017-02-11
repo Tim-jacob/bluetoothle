@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26127.3
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CB45572F-4288-4D54-98BB-B2807C2A8C54}"
 	ProjectSection(SolutionItems) = preProject
@@ -48,13 +48,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{E72A2C1E-F
 		docs\setup.md = docs\setup.md
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Plugin.BluetoothLE.Apple.Shared", "Plugin.BluetoothLE.Apple.Shared\Plugin.BluetoothLE.Apple.Shared.shproj", "{B0A41CE6-F0FB-45DA-9D10-F02EDA7C9459}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Plugin.BluetoothLE.Apple.Shared\Plugin.BluetoothLE.Apple.Shared.projitems*{57d5ff44-345d-4229-aefc-e3f7f260a665}*SharedItemsImports = 4
 		Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems*{57d5ff44-345d-4229-aefc-e3f7f260a665}*SharedItemsImports = 4
 		Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems*{74399318-b10f-47dc-9500-1f5b9e337dbc}*SharedItemsImports = 4
 		Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems*{89f4b2db-539d-467d-b9b1-74608e636349}*SharedItemsImports = 4
+		Plugin.BluetoothLE.Apple.Shared\Plugin.BluetoothLE.Apple.Shared.projitems*{8a0fc475-221d-4fe0-8308-3f703dc08f52}*SharedItemsImports = 4
 		Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems*{8a0fc475-221d-4fe0-8308-3f703dc08f52}*SharedItemsImports = 4
+		Plugin.BluetoothLE.Apple.Shared\Plugin.BluetoothLE.Apple.Shared.projitems*{b0a41ce6-f0fb-45da-9d10-f02eda7c9459}*SharedItemsImports = 13
 		Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems*{b6cfbf05-04e5-4ae6-8516-c6527c7a2be8}*SharedItemsImports = 13
+		Plugin.BluetoothLE.Apple.Shared\Plugin.BluetoothLE.Apple.Shared.projitems*{e9bc91b2-a392-4eed-9000-a0629e69d5a7}*SharedItemsImports = 4
 		Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems*{e9bc91b2-a392-4eed-9000-a0629e69d5a7}*SharedItemsImports = 4
 		Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems*{f44febba-7ea7-4b92-bf25-ebdcc1db1830}*SharedItemsImports = 4
 	EndGlobalSection
