@@ -118,13 +118,15 @@
     <Compile Include="GattReliableWriteTransaction.cs" />
     <Compile Include="GattService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\Plugin.BluetoothLE.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.BluetoothLE.Abstractions\Plugin.BluetoothLE.Abstractions.csproj">
       <Project>{01d11ef2-074c-4bc0-9c05-5a6a9f974e05}</Project>
       <Name>Plugin.BluetoothLE.Abstractions</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\Plugin.BluetoothLE.rd.xml" />
   </ItemGroup>
   <Import Project="..\Plugin.BluetoothLE.Shared\Plugin.BluetoothLE.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
